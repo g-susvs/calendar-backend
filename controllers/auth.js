@@ -64,8 +64,8 @@ const loginUsuario = async (req, res) => {
 
 		res.json({
 			ok: true,
-			email,
-			password,
+			uid: usuario._id,
+			name: usuario.name,
 			token,
 		});
 	} catch (error) {
