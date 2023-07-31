@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'mern-calendar'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_871ED00E50EA407D8090D9CED0833305 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E8EB6E6E1F24FB2843C6DAD16E0CE8C }}
           package: .
